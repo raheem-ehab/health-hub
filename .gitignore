@@ -1,0 +1,181 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.pem
+
+# ==========================================
+# Build & Distribution
+# ==========================================
+dist/
+dist-ssr/
+build/
+.next/
+out/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+.env.*.pem
+
+# ==========================================
+# IDE & Editor
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.eslintcache
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+.directory
+
+# ==========================================
+# Package Manager Lock Files
+# ==========================================
+bun.lockb
+pnpm-lock.yaml
+
+# ==========================================
+# Database
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+mongodb.log
+data/
+.mongorc.js
+backup/
+backups/
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+npm-error.log*
+yarn-error.log*
+pnpm-error.log*
+lerna-error.log*
+
+# ==========================================
+# Testing
+# ==========================================
+coverage/
+.nyc_output/
+.jest_cache/
+
+# ==========================================
+# Temporary Files
+# ==========================================
+tmp/
+temp/
+*.temp
+*.tmp
+.cache/
+
+# ==========================================
+# Node.js Specific
+# ==========================================
+.npm
+.node_repl_history
+*.tgz
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ==========================================
+# Vite Specific
+# ==========================================
+.vite/
+*.local
+
+# ==========================================
+# TypeScript
+# ==========================================
+*.tsbuildinfo
+dist-types/
+
+# ==========================================
+# Build Artifacts
+# ==========================================
+*.bak
+*.orig
+
+# ==========================================
+# Sensitive Data (CRITICAL - NEVER COMMIT)
+# ==========================================
+# Private keys and certificates
+*.key
+*.cert
+*.crt
+secrets/
+private/
+config/keys.js
+config/credentials.js
+
+# ==========================================
+# CI/CD & Docker
+# ==========================================
+.dockerignore
+docker-compose.override.yml
+
+# ==========================================
+# Reports & Analytics
+# ==========================================
+reports/
+
+# ==========================================
+# Source Maps (Optional - Keep for Development)
+# ==========================================
+# *.js.map
+# *.css.map
+
+# ==========================================
+# DO NOT COMMIT - SENSITIVE DATA
+# ==========================================
+# Keep this section as a reminder:
+# - Never commit .env files
+# - Never commit database credentials
+# - Never commit API keys
+# - Never commit authentication tokens
+# - Never commit private certificates/keys
+# - Never commit database backups with live data

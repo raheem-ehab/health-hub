@@ -1,0 +1,26 @@
+.smartchat-root { position: fixed; right: 20px; bottom: 20px; z-index: 9999; font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; }
+.smartchat-fab { width:56px; height:56px; border-radius:28px; background:linear-gradient(180deg,#0ea5e9,#0369a1); color:#fff; border:none; box-shadow:0 6px 18px rgba(2,6,23,0.3); cursor:pointer; font-size:20px; display:flex; align-items:center; justify-content:center; }
+.smartchat-card { width:360px; max-width:calc(100vw - 40px); height:520px; background:#fff; border-radius:12px; box-shadow:0 10px 30px rgba(2,6,23,0.18); display:flex; flex-direction:column; overflow:hidden; }
+
+/* Menu option buttons (modern professional look) */
+.smartchat-menu { padding: 10px; border-top: 1px solid #eef2f7; display:flex; gap:8px; flex-wrap:wrap; }
+.smartchat-menu-btn { display:inline-flex; align-items:center; gap:8px; background:#0ea5a4; color:#fff; padding:10px 14px; border-radius:8px; border:none; cursor:pointer; font-weight:600; box-shadow:0 4px 10px rgba(6,95,86,0.08); transition:transform .12s ease, box-shadow .12s ease, background .12s ease; min-width:120px; }
+.smartchat-menu-btn:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(6,95,86,0.12); background:#08928a; }
+.smartchat-menu-num { background: rgba(255,255,255,0.12); padding:6px 8px; border-radius:6px; font-weight:700; color:#fff; display:inline-flex; align-items:center; justify-content:center; min-width:24px; height:24px; }
+.smartchat-menu-label { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+@media (max-width:420px) {
+  .smartchat-card { width: calc(100vw - 20px); height: 70vh; }
+  .smartchat-menu-btn { min-width: 40%; padding:10px 10px; }
+}
+
+.smartchat-header { background:linear-gradient(90deg,#0369a1,#0ea5e9); color:#fff; padding:12px; display:flex; align-items:center; justify-content:space-between; }
+.smartchat-title { font-weight:600; font-size:14px; }
+.smartchat-body { padding:12px; background:#f8fafc; flex:1 1 auto; overflow-y:auto; display:flex; flex-direction:column; gap:8px; }
+.smartchat-msg { max-width:78%; padding:10px 12px; border-radius:12px; line-height:1.3; word-break:break-word; }
+.smartchat-msg.bot { align-self:flex-start; background:#f3f4f6; color:#000; }
+.smartchat-msg.user { align-self:flex-end; background:#0ea5e9; color:#fff; }
+.smartchat-input { padding:10px; display:flex; gap:8px; border-top:1px solid #e6eef6; background:#fff; }
+.smartchat-input input { flex:1 1 auto; padding:10px 12px; border-radius:8px; border:1px solid #ddd; background:#fff; color:#000; outline:none; font-size:14px; }
+.smartchat-input button { background:#0369a1; color:#fff; border:none; padding:0 14px; border-radius:8px; cursor:pointer; min-width:64px; }
+.smartchat-empty { color:#6b7280; font-size:13px; text-align:center; margin-top:14px; }
